@@ -11,7 +11,6 @@ puts '10 blog posts created'
   Skill.create!(
     title: "rails #{skill}",
     percent_utilized: 15
-    )
 end
 
 puts "5 skills created created"

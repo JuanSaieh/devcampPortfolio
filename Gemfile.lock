@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/JuanSaieh/saieh_view_tool
+  revision: 27c49e127ca098bb5c7ce013075e5d7ec86df56c
+  specs:
+    saieh_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -220,6 +226,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.11)
   rails (~> 5.2.3)
+  saieh_view_tool!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)

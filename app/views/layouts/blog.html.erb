@@ -12,14 +12,12 @@
   </head>
 
   <body>
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 
-      <%= login_helper %>
+    <%= render "shared/application_nav" %>
 
     <%= yield %>
-
-    <%= render "shared/nav", location: 'bottom' %>
 
     <%= source_helper("blog") %>
 

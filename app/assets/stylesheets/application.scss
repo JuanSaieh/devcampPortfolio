@@ -134,7 +134,7 @@ body {
 @media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+    // position: fixed;
     top: 0;
   }
   .mastfoot {
@@ -159,4 +159,14 @@ body {
   .cover-container {
     width: 53rem;
   }
+}
+
+/*
+ * Custom Styles
+ */
+
+.card-block {
+  color: black;
+  text-align: left;
+
 }

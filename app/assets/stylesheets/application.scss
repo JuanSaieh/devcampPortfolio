@@ -29,7 +29,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
@@ -134,7 +133,7 @@ body {
 @media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
-    // position: fixed;
+    position: fixed;    //change to fix contact page
     top: 0;
   }
   .mastfoot {
@@ -169,4 +168,22 @@ body {
   color: black;
   text-align: left;
 
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  min-width: 80%;
+  min-height: 80%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  background: image-url('rails-logo.svg') no-repeat;
+  background-size: cover;
+}
+
+.app-footer {
+  color: red
 }

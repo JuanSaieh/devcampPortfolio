@@ -173,14 +173,13 @@ body {
 #background {
   position: fixed;
   top: 50%;
-  left: 40%;
-  min-width: 80%;
-  min-height: 80%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
   width: auto;
   height: auto;
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
-  background: image-url('rails-logo.svg') no-repeat;
   background-size: cover;
 }
 
